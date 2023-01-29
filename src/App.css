@@ -1,38 +1,87 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
   background-color: #282c34;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar {
+  width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.vMachine {
+  background-color: rgb(62, 61, 66);
+  width: 30vw;
+  height: 50vh;
+  margin-top: 10%;
+}
+
+.vMBtn {
+  background-color: rgb(32, 30, 30);
+  color: white;
+  border: solid;
+  margin: auto;
+}
+
+.pannel {
+  background-color: gray;
+  margin: auto;
+  margin-top: 20%;
+  margin-bottom: 20%;
+}
+
+.items {
+  background-color: darkgray;
+  margin-top: 20%;
+  height: 10vw;
+}
+
+.btns {
+  margin-top: 20%;
+}
+
+.dispense {
+  background-color: black;
+  width: 10vw;
+  height: 7vh;
+  margin: auto;
+}
+.itemPic {
+width: 30%;
+margin: auto;
+margin-top: 10%;
+}
+
+.ChocoPiece {
+  background-color: rgb(99, 50, 50);
+  border: solid black;
+  height: 7vh;
+  width: 3vw;
+  cursor: pointer;
+}
+
+.Item {
+  margin-top: 10%;
+}
+
+.hidden {
+  visibility: hidden;
+  border: solid #282c34;
+}
+
+.taco {
+  width: 150px;
+}
+
+.tacos {
+  width: 150px;
+  position: absolute
+}
+
+.front {
+  position: relative;
+  z-index: 1000;
 }
